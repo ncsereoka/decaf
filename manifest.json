@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Decaf",
+  "version": "0.1",
+
+  "description": "Hide page elements you don't want to see anymore ",
+
+  "homepage_url": "https://github.com/ncsereoka/decaf",
+
+  "icons": {
+    "48": "icons/decaf_48.png",
+    "96": "icons/decaf_96.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/"],
+      "js": ["js/youtube/landing.js"]
+    },
+    {
+      "matches": ["*://*.youtube.com/results*"],
+      "js": ["js/youtube/results.js"]
+    },
+    {
+      "matches": ["*://*.youtube.com/watch*"],
+      "js": ["js/youtube/watch.js"]
+    }
+  ]
+}
