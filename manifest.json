@@ -8,8 +8,11 @@
   "homepage_url": "https://github.com/ncsereoka/decaf",
 
   "icons": {
+    "32": "icons/decaf_32.png",
     "48": "icons/decaf_48.png",
-    "96": "icons/decaf_96.png"
+    "64": "icons/decaf_64.png",
+    "96": "icons/decaf_96.png",
+    "128": "icons/decaf_128.png"
   },
 
   "content_scripts": [
